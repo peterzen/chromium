@@ -1,0 +1,11 @@
+Port 22
+AddressFamily inet
+ChallengeResponseAuthentication no
+UsePAM yes
+X11Forwarding yes
+#X11DisplayOffset 10
+#X11UseLocalhost yes
+#PermitTTY yes
+PrintMotd no
+AcceptEnv LANG LC_*
+Subsystem	sftp	/usr/lib/openssh/sftp-server
